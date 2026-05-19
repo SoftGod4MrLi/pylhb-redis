@@ -1,0 +1,26 @@
+[project]
+name = "pylhb-redis"
+version = "1.0.0"
+description = "Mr.Lee's Redis Helpers"
+readme = "README.md"
+license = {file = "LICENSE"}
+authors = [
+    { name = "SoftGod4MrLi", email = "596928288@qq.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "redis>=7.4.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/SoftGod4MrLi/pylhb-redis"
+Documentation = "https://github.com/SoftGod4MrLi/pylhb-redis"
+Repository = "https://github.com/SoftGod4MrLi/pylhb-redis"
+Issues = "https://github.com/SoftGod4MrLi/pylhb-redis/issues"
+
+[project.scripts]
+pylhb-redis = "pylhb_redis:main"
+
+[build-system]
+requires = ["uv_build>=0.11.8,<0.12.0"]
+build-backend = "uv_build"
