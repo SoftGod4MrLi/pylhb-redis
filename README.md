@@ -11,7 +11,7 @@ pylhb-redis 是我在工作过程中陆续整理的一个 Python Redis 工具包
 
 ## 安装
 ```
-pip install pylhb
+pip install pylhb-redis
 ```
 
 ## 🌺mypymssql模块
